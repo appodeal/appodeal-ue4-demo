@@ -1,1 +1,0 @@
-../../../AppodealUE4Demo/AppodealUE4Demo.uproject  /Game/AppodealScene -Messaging -SessionId=569B429B4C4BB6D2DA9080BC1B25E863 -SessionOwner="NazarKozak" -SessionName="Launch On Device" -iterative
