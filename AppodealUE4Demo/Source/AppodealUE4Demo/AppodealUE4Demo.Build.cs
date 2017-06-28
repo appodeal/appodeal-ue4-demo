@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class AppodealUE4Demo : ModuleRules
 {
-	public AppodealUE4Demo(TargetInfo Target)
+	public AppodealUE4Demo(ReadOnlyTargetRules Target): base(Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
