@@ -42,6 +42,17 @@ Then check settings there:
     + android.permission.ACCESS_WIFI_STATE
 + Google Play Services should be enabled, because Appodeal requires it.
 
+If you see toast message "AdMob not found" in your game and you use Unreal Engine 4.18, you should edit the following file: Plugins/Appodeal/Source/Appodeal/Appodeal_APL.xml
+
+Scroll to line 13 (<AARImports>) ad add the following lines:
+
+```
+<insertValue value="com.google.android.gms,play-services-ads,11.0.4"/>
+<insertNewline/>
+<insertValue value="com.google.android.gms,play-services-ads-lite,11.0.4"/>
+<insertNewline/>
+```
+
 Check Android SDK settings, Android SDK, NDK and ANT shoud be configured.
 
 Appodeal plugin depends on [MultiDex](https://www.unrealengine.com/marketplace/multidex) plugin. Without this plugin you probably won't be able to build your game for Android. Please read installation guide carefully.
