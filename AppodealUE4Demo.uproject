@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.18",
+	"EngineAssociation": "4.21",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -12,9 +12,9 @@
 	],
 	"Plugins": [
 		{
-			"Name": "MultiDex",
+			"Name": "Appodeal",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/cce07f5135e84dd98738a330b99760a7"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ccc66aee678544bc83c34213a26d0449"
 		}
 	]
 }
