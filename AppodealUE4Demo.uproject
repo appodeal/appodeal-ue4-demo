@@ -29,6 +29,10 @@
 		{
 			"Name": "GoogleCloudMessaging",
 			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
 		}
 	]
 }
